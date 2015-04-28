@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="379.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="427.0" prefWidth="331.0">
+         <children>
+            <TextField layoutX="166.0" layoutY="54.0" />
+            <TextField layoutX="166.0" layoutY="95.0" />
+            <TextField layoutX="166.0" layoutY="139.0" />
+            <TextField layoutX="166.0" layoutY="222.0" />
+            <Button layoutX="73.0" layoutY="388.0" mnemonicParsing="false" text="Save" />
+            <Button layoutX="199.0" layoutY="388.0" mnemonicParsing="false" text="Clear" />
+            <RadioButton layoutX="77.0" layoutY="180.0" mnemonicParsing="false" text="Male" />
+            <RadioButton layoutX="166.0" layoutY="180.0" mnemonicParsing="false" text="Female" />
+            <Label layoutX="77.0" layoutY="58.0" text="First Name" />
+            <Label layoutX="77.0" layoutY="99.0" text="Middle Initial" />
+            <Label layoutX="77.0" layoutY="143.0" text="Last Name" />
+            <Label layoutX="77.0" layoutY="226.0" text="Address" />
+            <Label layoutX="77.0" layoutY="265.0" text="City" />
+            <TextField layoutX="166.0" layoutY="261.0" />
+            <TextField layoutX="166.0" layoutY="339.0" />
+            <Label layoutX="77.0" layoutY="343.0" text="Zip Code" />
+            <Label layoutX="77.0" layoutY="305.0" text="State" />
+            <ComboBox layoutX="166.0" layoutY="301.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
